@@ -1,0 +1,25 @@
+{
+  "name": "playground-utils",
+  "version": "1.0.0",
+  "description": "Testing utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steodor/playground-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "utilities",
+    "react",
+    "redux-form"
+  ],
+  "author": "Teodor Sandu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steodor/playground-utils/issues"
+  },
+  "homepage": "https://github.com/steodor/playground-utils#readme"
+}
