@@ -1,5 +1,5 @@
 {
-    "name": "adaptabi-utils",
+    "name": "@adaptabi/utils",
     "version": "1.0.3",
     "description": "Testing utils",
     "main": "dist/adaptabi-utils.js",
