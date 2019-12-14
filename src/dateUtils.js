@@ -1,5 +1,5 @@
 import moment from 'moment';
-import 'moment/min/locales.min'; //var localLocale = moment();localLocale.locale('fr');
+import 'moment/min/locales.min';
 
 const dateUtils = {
     serverFormat: 'YYYY-MM-DDTHH:mm:ss',

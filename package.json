@@ -1,31 +1,40 @@
 {
-  "name": "playground-utils",
-  "version": "1.0.3",
-  "description": "Testing utils",
-  "main": "dist/bundle.js",
-  "scripts": {
-    "test": "echo \"Error: no tests yet\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/steodor/playground-utils.git"
-  },
-  "keywords": [
-    "javascript",
-    "utilities",
-    "react",
-    "redux-form"
-  ],
-  "author": "Teodor Sandu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/steodor/playground-utils/issues"
-  },
-  "homepage": "https://github.com/steodor/playground-utils#readme",
-  "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.41.2"
-  }
+    "name": "adaptabi-utils",
+    "version": "1.0.3",
+    "description": "Testing utils",
+    "main": "dist/adaptabi-utils.js",
+    "scripts": {
+        "test": "echo \"Error: no tests yet\"",
+        "build": "webpack --config ./webpack.config.dev.js",
+        "prod": "webpack --config ./webpack.config.prod.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/steodor/playground-utils.git"
+    },
+    "keywords": [
+        "javascript",
+        "utilities",
+        "react",
+        "redux-form"
+    ],
+    "author": "Teodor Sandu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/steodor/playground-utils/issues"
+    },
+    "homepage": "https://github.com/steodor/playground-utils#readme",
+    "devDependencies": {
+        "@babel/core": "^7.7.2",
+        "@babel/plugin-proposal-class-properties": "^7.7.4",
+        "@babel/preset-env": "^7.7.1",
+        "babel-loader": "^8.0.6",
+        "moment": "^2.24.0",
+        "redux": "^4.0.4",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "peerDependencies": {
+        "moment": "^2.24.0"
+    }
 }
