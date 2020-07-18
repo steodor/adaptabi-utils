@@ -8,16 +8,17 @@ let cancelEvent = (event = {}) => {
     return false;
 };
 
-cancelEvent.all = window.device ? {
-    onTouchStart: cancelEvent,
-    onTouchMove: cancelEvent,
-    onTouchEnd: cancelEvent,
-    onClick: cancelEvent,
-} : {
-    onMouseDown: cancelEvent,
-    onMouseMove: cancelEvent,
-    onMouseUp: cancelEvent,
-    onClick: cancelEvent,
-};
+cancelEvent.all = window.device
+    ? {
+        onTouchStart: cancelEvent,
+        onTouchMove: cancelEvent,
+        onTouchEnd: cancelEvent,
+        onClick: cancelEvent,
+    } : {
+        onMouseDown: cancelEvent,
+        onMouseMove: cancelEvent,
+        onMouseUp: cancelEvent,
+        onClick: cancelEvent,
+    };
 
 export default cancelEvent;

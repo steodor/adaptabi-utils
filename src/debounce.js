@@ -2,7 +2,7 @@
 // be triggered. The function will be called after it stops being called for
 // N milliseconds. If `immediate` is passed, trigger the function on the
 // leading edge, instead of the trailing.
-export default (func, wait, immediate) => {
+export default function debounce(func, wait, immediate) {
     var timeout;
     return (...args) => {
         args[0] && args[0].persist && args[0].persist();
