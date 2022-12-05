@@ -29,12 +29,12 @@
         "@babel/plugin-proposal-class-properties": "^7.7.4",
         "@babel/preset-env": "^7.7.1",
         "babel-loader": "^8.0.6",
-        "moment": "^2.29.2",
+        "moment": "^2.29.4",
         "redux": "^4.0.4",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.10"
     },
     "peerDependencies": {
-        "moment": "^2.29.2"
+        "moment": "^2.29.4"
     }
 }
